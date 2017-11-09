@@ -17,14 +17,14 @@ table.on('click', '.detail', function() {});
 // DataTables
 
 
-jQuery.validator.addMethod("tagCodeParentCheck", function (value, element) {
-            return tagCodeParentCheck(value);
-}, "请选择标签大类！");
+jQuery.validator.addMethod("myCheck", function (value, element) {
+            return myCheck(value);
+}, "this can not be null!");
 
 
-$('#sdbussInfluence input[name=bussInfluence]:checked').val()
+$('#myId input[name=myName]:checked').val()
 
-$('#sdbussInfluence input[name=bussInfluence]')
+$('#myId input[name=myName]')
 
 // 展开关闭
 var g = ['<div'];
